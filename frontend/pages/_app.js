@@ -6,7 +6,6 @@ class MyApp extends App {
     const { Component } = this.props;
     return (
       <Container>
-        <p>hello, I am on every page!</p>
         <Page>
           <Component />
         </Page>
